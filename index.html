@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Godis Omni</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #111;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 30px 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+      padding: 15px;
+      font-size: 16px;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px 0;
+    }
+    .card {
+      border: 1px solid #eee;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 18px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 12px;
+      color: #777;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 80%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  GOD IS OMNI
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>ABOUT US</h2>
+  <p>Clean, relaxing comfort with a message.</p>
+  <p>Godis Omni /go:dis/(ahm-nee) — Designed to remind you that God is good everywhere all the time.</p>
+</section>
+
+<section id="products" class="products">
+
+  <div class="card">
+    <img src="white-hoodie.jpg" alt="White Hoodie" />
+    <p>GOD IS GOOD — White Hoodie</p>
+    <a class="button" href="YOUR_AMAZON_LINK_HERE" target="_blank">Shop on Amazon</a>
+  </div>
+
+  <div class="card">
+    <img src="lemon-hoodie.jpg" alt="Lemon Yellow Hoodie" />
+    <p>GOD IS GOOD — Lemon Yellow Hoodie</p>
+    <a class="button" href="YOUR_AMAZON_LINK_HERE" target="_blank">Shop on Amazon</a>
+  </div>
+
+  <div class="card">
+    <img src="dusty-blue-hoodie.jpg" alt="Dusty Blue Hoodie" />
+    <p>GOD IS GOOD — Dusty Blue Hoodie</p>
+    <a class="button" href="YOUR_AMAZON_LINK_HERE" target="_blank">Shop on Amazon</a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>CONTACT</h2>
+  <p>Let's get in touch — want to learn more? Fill out the form and we'll be in touch soon!</p>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Message" rows="4"></textarea>
+    <br />
+    <a class="button" href="mailto:your@email.com">Send Message</a>
+  </form>
+</section>
+
+<footer>
+  © 2026 Godis Omni. All rights reserved.
+</footer>
+
+</body>
+</html>
