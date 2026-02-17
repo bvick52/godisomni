@@ -92,23 +92,30 @@
         }
 
         .cta-button {
-            background: var(--primary-color);
-            color: white;
+            background: #FF9900;
+            color: #0F1111;
             padding: 0.7rem 1.8rem;
-            border-radius: var(--border-radius);
-            font-weight: 500;
-            letter-spacing: 0.5px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            letter-spacing: 0.3px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             transition: all 0.3s ease;
             opacity: 0;
             animation: fadeInUp 0.6s ease forwards 0.5s;
+            box-shadow: 0 2px 6px rgba(255, 153, 0, 0.4);
+            white-space: nowrap;
         }
 
         .cta-button:hover {
-            background: var(--accent-color);
+            background: #e68900;
             transform: translateY(-2px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 6px 16px rgba(255, 153, 0, 0.45);
+            color: #0F1111;
         }
-
         /* Mobile Menu Toggle */
         .mobile-toggle {
             display: none;
@@ -729,12 +736,17 @@
             <div class="logo">
                 <img src="GOLogo2.svg" alt="Godis Omni Logo">
             </div>
-            <ul class="nav-links" id="navLinks">
+           <ul class="nav-links" id="navLinks">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#newsletter">Connect</a></li>
-                <li><a href="#contact" class="cta-button">Contact Us</a></li>
+                <li><a href="#products">The Comfort</a></li>
+                <li><a href="#newsletter">Get the message</a></li>
+                <li><a href="https://www.amazon.com/Modern-Statement-Graphic-Pullover-Hoodie/dp/B0GHZZ56DF" target="_blank" class="cta-button">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#0F1111" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.23 10.56V10c-1.94 0-3.99.39-3.99 2.67 0 1.15.59 1.93 1.62 1.93.75 0 1.41-.46 1.83-1.22.51-.97.54-1.87.54-2.82zm2.43 5.89c-.16.14-.39.15-.57.06-1.09-.98-1.28-1.44-1.89-2.37-1.81 1.84-3.09 2.39-5.44 2.39-2.78 0-4.94-1.71-4.94-5.14 0-2.68 1.45-4.5 3.53-5.39 1.8-.79 4.31-.93 6.23-1.15V4.5c0-.78.06-1.7-.4-2.37-.4-.6-1.17-.85-1.84-.85-1.25 0-2.37.64-2.64 1.97-.06.3-.28.59-.57.61l-3.19-.34c-.27-.06-.57-.28-.49-.7C4.52 1.07 7.36 0 9.91 0c1.3 0 3 .35 4.03 1.33C15.17 2.4 15.06 3.87 15.06 5.47v3.97c0 1.19.49 1.72 .96 2.36.16.23.2.5-.01.67l-2.35 2.02v-.04z"/>
+                    </svg>
+                    Shop Amazon
+                </a></li>
             </ul>
             <div class="mobile-toggle" id="mobileToggle">
                 <span></span>
